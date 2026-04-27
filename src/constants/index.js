@@ -27,6 +27,12 @@ import {
   dcc,
   kelhel,
   microverse,
+  meera,
+  scrapa,
+  solar,
+  esirt,
+  bitb,
+  pixel
 } from '../assets';
 
 export const navLinks = [
@@ -50,15 +56,15 @@ const services = [
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Fullstack Developer',
     icon: backend,
   },
+  // {
+  //   title: 'UI/UX Design',
+  //   icon: ux,
+  // },
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
+    title: 'Software Developer',
     icon: prototyping,
   },
 ];
@@ -96,18 +102,18 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
@@ -124,40 +130,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Fullstack Developer Intern',
+    company_name: 'Azziptech',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2023 - Mar 2024',
   },
+  // {
+  //   title: 'Mentor (Volunteer)',
+  //   company_name: 'Microverse',
+  //   icon: microverse,
+  //   iconBg: '#333333',
+  //   date: 'Mar 2022 - May 2022',
+  // },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Junior Frontend Engineer',
+    company_name: 'Azziptech',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Apr 2024 - Oct 2025',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  // {
+  //   title: 'Full Stack Developer',
+  //   company_name: 'Diversity Cyber Council',
+  //   icon: dcc,
+  //   iconBg: '#333333',
+  //   date: 'Apr 2022 - Present',
+  // },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Scrapanova',
+    description: 'A B2B Scrape treding plateform for buying and selling scrap.',
     tags: [
       {
         name: 'react',
@@ -172,15 +178,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: scrapa,
+    repo: 'https://github.com/m-jasani/Scrapanova.git',
+    demo: 'https://scrapanova.com/#',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'GetSolar',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A Solar Energy company application for australian business.',
     tags: [
       {
         name: 'react',
@@ -195,14 +201,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: solar,
+    repo: 'https://github.com/m-jasani/GetSolar.git',
+    demo: 'https://getsolar.cloud/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'eSirt',
+    description: 'This is a hospital management system and e learning platform for a hospital called Sirt-T .',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +223,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: esirt,
+    repo: 'https://github.com/m-jasani/EsirT.git',
+    demo: 'https://esirt.co.in/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'BitBank Finance',
+    description: `It is a finance management application that allows users to track their expenses, set budgets, and visualize their financial data through charts and graphs. It provides a user-friendly interface for managing personal finances effectively.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +245,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: bitb,
+    repo: 'https://github.com/m-jasani/BitBank_Finance.git',
+    demo: 'https://bitbankfinance.vercel.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'pixelflow',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'it is a web application for digital agency that provides a platform for showcasing their portfolio, services, and client testimonials. The website is designed to be visually appealing and user-friendly, allowing potential clients to easily navigate through the agency’s offerings and get in touch for inquiries.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +268,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: pixel,
+    repo: 'https://github.com/m-jasani/Pixel-flow.git',
+    demo: 'https://pixelflow-kohl.vercel.app/',
   },
 ];
 

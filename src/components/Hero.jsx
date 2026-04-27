@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { meera, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -42,12 +42,13 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Meera Jasani
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Engineering High-Performance Interfaces  
+              <br className="sm:block hidden" />
+              Where Speed Meets Scalability.
             </p>
           </div>
           <div
@@ -82,13 +83,48 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
+                  {/* <img
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
-          />
+            src={meera}
+            alt="meera jasani"
+          /> */}
+         {/* Image Container */}
+{/* Image Container */}
+<div className="absolute inset-0 flex justify-end items-end pointer-events-none overflow-visible">
+  <img
+    src={meera}
+    alt="meera jasani"
+    className="
+      /* 1. Reset: Allow natural width, force height logic */
+      w-auto 
+      min-h-[60vh] 
+      
+      /* 2. Responsive Heights: Increased for better visibility */
+      h-[70vh]
+      xs:h-[75vh]
+      md:h-[100vh] 
+      lg:h-[110vh] 
+      xl:h-[120vh]
+      
+      /* 3. Positioning: Ensure it sticks to the bottom */
+      object-contain 
+      object-bottom
+      
+      /* 4. Horizontal Spacing */
+      mr-0 
+      lg:mr-[5%] 
+      2xl:mr-[10%]
+
+      /* 5. Fixed: Removed negative margin, now uses positive offset */
+      -mb-40
+      
+      /* Animation */
+      transition-all duration-300
+    "
+  />
+</div>
         </div>
       </section>
     </>

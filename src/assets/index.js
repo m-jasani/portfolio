@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import meera from './personal/meera.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -44,6 +45,11 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import scrapa from './projects/scrapa.png';
+import solar from './projects/solar.png';
+import esirt from './projects/esirt.png';
+import bitb from './projects/bitb.png';
+import pixel from './projects/pixel.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
@@ -58,6 +64,7 @@ export {
   logo,
   logotext,
   shaq,
+  meera,
   backend,
   ux,
   frontend,
@@ -96,4 +103,9 @@ export {
   dcc,
   kelhel,
   microverse,
+  scrapa,
+solar,
+esirt,
+bitb,
+pixel
 };
